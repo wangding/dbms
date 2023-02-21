@@ -27,3 +27,4 @@
 
 - [从零搭建实验环境](chapters/setup-dev-env.md)
 - [northwind E-R 图](chapters/northwind-er.md)
+- [课堂测验](test.md)
