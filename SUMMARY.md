@@ -14,7 +14,7 @@
 - [第五章：逻辑数据库设计](chapters/ch05-database-design-2.md)
 - [第六章：物理数据库设计](chapters/ch06-database-design-3.md)
 
-## 进阶篇
+## 原理篇
 
 - [第七章：存储管理](chapters/ch07-storage-management.md)
 - [第八章：索引结构](chapters/ch08-indexing.md)
