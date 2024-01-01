@@ -1,29 +1,18 @@
 {
-  "name": "database",
-  "version": "1.0.0",
-  "description": "数据库系统",
+  "name": "startlight-demo",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"nothing to test!\" && exit 0"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wangding/database.git"
-  },
-  "author": "wangding",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wangding/database/issues"
-  },
-  "homepage": "https://github.com/wangding/database#readme",
-  "devDependencies": {
-    "@wangding/grunt-qiniu-qupload": "^0.2.1",
-    "gitbook-cli": "^2.3.2",
-    "grunt": "1.0.1",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "^3.0.0",
-    "grunt-contrib-htmlmin": "^2.4.0",
-    "grunt-contrib-uglify": "^4.0.1",
-    "grunt-text-replace": "^0.4.0",
-    "grunt-unescape-html": "0.0.5"
+  "dependencies": {
+    "@astrojs/starlight": "^0.15.1",
+    "astro": "^4.0.1",
+    "qiniu-upload-cli": "github:wangding/qiniu-upload-cli",
+    "sharp": "^0.32.5"
   }
 }

@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.5]
+        node-version: [18.x]
 
     steps:
     - uses: actions/checkout@v3
@@ -26,14 +26,8 @@ jobs:
     - name: install dependencies
       run: npm install
 
-    - name: install gitbook plugins
-      run: npx gitbook install
-
-    - name: build gitbook
-      run: npx gitbook build
-
-    - name: minify code
-      run: npx grunt minify
+    - name: build website
+      run: npm run build
 
     - name: upload website
-      run: npx grunt upload
+      run: npx upload gb-dbms dist

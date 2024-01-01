@@ -1,4 +1,6 @@
-# 第 2 章 结构化查询语言
+---
+title: 第 2 章 结构化查询语言
+---
 
 ## 安装 northwind 示例数据库
 
@@ -179,9 +181,9 @@
 - 在 `tb_a` 和 `tb_b` 表上做内连接、左外连接、右外连接、全外连接、笛卡尔积和交叉连接
 - 在 `tb_b` 和 `tb_c` 表上做自然连接
 - 参考下图，在 `tb_a` 和 `tb_b` 表上完成七种连接操作
-![七种 SQL 连接](./images/sql-joins.png)
+![七种 SQL 连接](/images/sql-joins.png)
 - 下面的查询可能涉及到 employees 表，departments 表和 locations 表，他们之间的关系见下图
-![northwind E-R 图](./images/employees-er.png)
+![northwind E-R 图](/images/employees-er.png)
 - 查询员工名字和所在部门的名称
 - 查询员工名字、工种编号和工种名称
 - 查询有提成员工的员工名字、部门名称和提成
