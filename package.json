@@ -12,7 +12,9 @@
   "dependencies": {
     "@astrojs/starlight": "^0.15.1",
     "astro": "^4.0.1",
-    "qiniu-upload-cli": "github:wangding/qiniu-upload-cli",
     "sharp": "^0.32.5"
+  },
+  "devDependencies": {
+    "wd-qiniu-upload-cli": "^1.0.1"
   }
 }

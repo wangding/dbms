@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-  server: { port: 8080, host: '192.168.174.130' },
+  server: { port: 8080, host: '192.168.14.128' },
   integrations: [
     starlight({
       title: '数据库原理',

@@ -6,31 +6,22 @@ title: 第 1 章 绪论
 
 要求：
 
-- 在招聘网站，网站不限，做如下调查
-- 搜索关键字：数据库或 MySQL
+- 在招聘网站（网站不限）做如下调查
+- 搜索关键字：**数据库**或 **MySQL**
 - 了解与数据库相关，有哪些不同工作岗位，待遇如何
 - 了解不同岗位对数据库技能有哪些要求，差异是什么
 - 了解哪些 DBMS 系统比较受企业欢迎
 
 ## 搭建实验环境
 
-**方式一：导入虚拟机（推荐）**
-
-- 下载并安装 vmware workstation Pro 15+（**已经安装 vmware workstation，跳过此步**）
-- 下载 [mocha 虚拟机](http://pan.baidu.com/s/1o8a3E3o)压缩文件
-- 解压缩 mocha 虚拟机（只要解压缩第一个文件即可）
-- 用 vmware workstation，打开解压后的 mocha 虚拟机
-- 启动 mocha 虚拟机
-- 登录 mocha 虚拟机，用户名：`wangding`，密码：`ddd`
-- 配置 mocha 虚拟机的网卡 IP 地址，具体操作请参考：[教学视频](https://www.bilibili.com/video/bv1iy4y1y7hm)
-- 确保在 mocha 虚拟机中，`ping www.baidu.com` 可以正常执行
-- 下载并安装 [xshell](https://www.xshell.com/zh/free-for-home-school/)
-- 用 XShell 链接 mocha 虚拟机
-
-**方式二：从头安装**
-
-- 安装步骤请参考：[从零搭建实验环境](setup-dev-env.html)
-- 安装 CentOS 虚拟机，请参考：[教学视频](https://www.bilibili.com/video/BV1Bw411o712)
+- 第一步：安装虚拟机软件
+  - 已经安装过虚拟机软件的跳过此步
+  - [VMWare Workstation](https://www.vmware.com/go/getworkstation-win) 或 [VisualBox](https://pc.qq.com/detail/3/detail_1023.html) 二选一
+- 第二步：[下载](https://releases.ubuntu.com/22.04.3/ubuntu-22.04.3-live-server-amd64.iso) Ubuntu linux ISO 镜像
+- 第三步：安装 Ubuntu Linux 虚拟机
+- 第四步：[下载](https://www.xshell.com/zh/free-for-home-school/)并安装 XShell 软件
+- 第五步：安装 MySQL 8.0
+- 详细安装步骤请参考：[从零搭建实验环境](/appendix/setup-dev-env/)
 
 ## 配置实验环境
 
@@ -43,20 +34,6 @@ title: 第 1 章 绪论
 - 运行命令 `git config --global user.name "Your Name"`，配置 user.email 参数
 - 注意，上面两个命令需要把双引号中的文字改成具体的姓名和邮箱
 - 运行命令 `git config --list`，查看刚配置的 git 参数
-
-按照下面的操作步骤，创建属于自己的 linux 账户(选做)。
-
-- 下面创建的用户名为test
-- 可以把 test 改成自己想要的名字
-- 用户名只支持英文字母
-- .
-- 创建新用户，`sudo useradd test`
-- 查看用户是否创建成功，`cat /etc/passwd`
-- 修改该用户的密码，`sudo passwd test`
-- 把该用户加入 root 用户组，`sudo gpasswd -a test root`
-- 查看该用户所在的用户组，`groups test`
-- 切换到该用户，`su test`
-- 或者创建新的xshell 连接，设置用 test 登录
 
 ## 熟悉实验环境的使用
 
