@@ -30,4 +30,4 @@ jobs:
       run: npm run build
 
     - name: upload website
-      run: npx upload gb-dbms-new dist
+      run: npx upload gb-dbms dist
