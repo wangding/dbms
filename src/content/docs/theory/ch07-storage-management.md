@@ -42,6 +42,29 @@ title: 第 7 章 存储管理
 - 通过 select 语句查看 tb_csv 表的数据
 - 在文件系统下查看 tb_csv 表的数据
 
+## innodb_ruby 软件
+
+- 按照下面的步骤安装 innodb_ruby 软件，`#` 后面是注释文字
+- innodb_ruby 软件的使用方法，参考 [innodb_ruby 教程](https://juejin.cn/post/6844903844107780103)
+
+```bash
+# 查看 ruby 版本应该 >= 2.7
+ruby -v
+
+# 查看 gem 的版本，应该 >= 3.1.6
+gem -v
+
+# 切换到 root 账户
+su
+# 输入 root 密码
+
+# 安装 innodb_ruby 工具
+gem install innodb_ruby
+
+# 确保工具能正常工作
+innodb_space --help
+```
+
 ## 存储结构
 
 ### 行结构
@@ -88,57 +111,3 @@ title: 第 7 章 存储管理
 
 - 查看系统表空间和临时表空间的路径
 - 查看使用系统表空间还是用户表空间（独立表空间）
-
-## innodb_ruby 软件
-
-- 按照下面的步骤安装 innodb_ruby 软件，`#` 后面是注释文字
-- innodb_ruby 软件的使用方法，参考 [innodb_ruby 教程](https://juejin.cn/post/6844903844107780103)
-
-```bash
-# 已经安装了 ruby 2.0
-ruby -v
-
-# 安装 ruby 2.7
-sudo yum install -y centos-release-scl-rh
-sudo yum install rh-ruby27 rh-ruby27-ruby-devel -y
-
-# 在 bash 下使用 ruby 2.7
-scl enable rh-ruby27 bash
-ruby -v
-
-# 如果希望 bash 登录就能使用 ruby 2.7，修改 .bashrc
-vi ~/.bashrc
-
-# 把下面命令加到 .bashrc 的最后一行，保存并退出
-source scl_source enable rh-ruby27
-
-# 重新登录 bash
-exit        # 退出 bash
-exit        # 退出 zsh
-
-# xshell 连接虚拟机，默认是 zsh
-bash        # 进入 bash
-ruby -v
-# ruby 2.7.4p191 (2021-07-07 revision a21a3b7d23) [x86_64-linux]
-
-# 查看 gem 的版本，应该是 3.1.6
-gem -v
-
-# 安装 innodb_ruby 工具
-gem install innodb_ruby
-
-# 确保工具能正常工作
-innodb_space --help
-
-# 把 wangding 用户加到 mysql 用户组中
-# 因为 innodb_ruby 需要有 /var/lib/mysql 目录的访问权限
-sudo usermod -aG mysql wangding
-exit        # 退出 bash
-exit        # 退出 zsh
-
-# xshell 连接虚拟机，默认是 zsh
-bash        # 进入 bash
-
-# 确保有查看 /var/lib/mysql 目录的权限
-ls /var/lib/mysql
-```
