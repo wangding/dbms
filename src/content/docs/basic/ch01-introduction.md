@@ -32,7 +32,7 @@ title: 第 1 章 绪论
 - 如果没有配置 user.name 和 user.email 参数，请执行下面的操作
 - 运行命令 `git config --global user.email "Your Email"`，配置 user.name 参数
 - 运行命令 `git config --global user.name "Your Name"`，配置 user.email 参数
-- 注意，上面两个命令需要把双引号中的文字改成具体的姓名和邮箱
+- **注意，上面两个命令需要把双引号中的文字改成具体的姓名和邮箱**
 - 运行命令 `git config --list`，查看刚配置的 git 参数
 
 ## 熟悉实验环境的使用
@@ -45,9 +45,9 @@ title: 第 1 章 绪论
 操作步骤如下：
 
 - 运行 vmware 虚拟机软件，打开 vmware 程序窗口
-- 启动 mocha linux 虚拟机
+- 启动 lab linux 虚拟机
 - 打开 xshell 软件
-- 连接到 mocha linux 虚拟机
+- 连接到 lab linux 虚拟机
 - 在 xshell 中使用开发环境
 - **注意**：如果没有特殊情况，都是在 xshell 中操作 linux 虚拟机
 
@@ -104,9 +104,8 @@ title: 第 1 章 绪论
 
 要求：
 
-- [scores.xlsx](http://sample.wangding.co/dbms/scores.xlsx) 是学生成绩的 excel 表格，有近四百位学生的三门课程的成绩
-- 下载 `scores.xlsx` 数据文件
-- 通过 [convert](https://convertio.co/zh/) 网站，将 `scores.xlsx` 文件转成 `csv` 格式的文件
+- [scores.csv](http://sample.wangding.co/dbms/scores.csv) 是学生成绩的 excel 表格，有近四百位学生的三门课程的成绩
+- 下载 `scores.csv` 数据文件
 - 创建 `dbms-demo` 仓库
 - 在 `dbms-demo` 目录下，创建 `01-introduction` 文件夹
 - 在 `01-introduction` 目录下，创建 `score.c` 代码文件
@@ -114,7 +113,7 @@ title: 第 1 章 绪论
 - 对学生成绩的操作保存在 `scores.csv` 中
 - 运行并测试程序
 - 程序功能和操作界面参考如下图：
-![数据管理界面](http://sample.wangding.co/dbms/score.gif)
+<img src="/images/score.gif"></img>
 - 编写 bash 脚本，实现同样的功能（选做）
 - 使用程序的时候，输入错误数据，观察程序是否能正常工作
 - 思考数据文件的格式发生下面的改变，程序是否可以正常运行
@@ -170,7 +169,7 @@ title: 第 1 章 绪论
 ## 扩展阅读
 
 - [计算机教育中缺失的一课](https://missing-semester-cn.github.io/)
-- [计算机教育中确实的一课视频](https://www.bilibili.com/video/BV1Vq4y1k7Ko)
+- [计算机教育中缺失的一课（视频）](https://www.bilibili.com/video/BV1Vq4y1k7Ko)
 - [大数据时代纪录片](https://www.bilibili.com/bangumi/play/ep120905)
 - [什么是数据库](https://www.bilibili.com/video/BV1mY411V7HW)
 - [什么是数据模型](https://www.bilibili.com/video/BV1rt4y1w7FV)
