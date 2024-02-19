@@ -9,9 +9,9 @@ title: 第 2 章 结构化查询语言
 - 在 linux 终端执行下面的命令，下载 `northwind.sql` 脚本文件
 - `wget http://sample.wangding.co/dbms/northwind.sql`
 - 执行下面的命令，执行 `northwind.sql` 脚本文件
-- `mysql -h 127.0.0.1 -u root -pddd < northwind.sql`
+- `mysql < northwind.sql`
 - 执行下面的命令，验证示例数据库是否安装成功
-- `mysql -h 127.0.0.1 -u root -pddd -e "show databases;"`
+- `mysql -e "show databases;"`
 
 ## 基础查询
 
