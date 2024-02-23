@@ -17,7 +17,7 @@ title: 第 1 章 绪论
 - 第一步：安装虚拟机软件
   - 已经安装过虚拟机软件的跳过此步
   - [VMWare Workstation](https://www.vmware.com/go/getworkstation-win) 或 [VisualBox](https://pc.qq.com/detail/3/detail_1023.html) 二选一
-- 第二步：[下载](https://releases.ubuntu.com/22.04.3/ubuntu-22.04.3-live-server-amd64.iso) Ubuntu linux ISO 镜像
+- 第二步：[下载](https://releases.ubuntu.com/22.04.4/ubuntu-22.04.4-live-server-amd64.iso) Ubuntu linux ISO 镜像
 - 第三步：安装 Ubuntu Linux 虚拟机
 - 第四步：[下载](https://www.xshell.com/zh/free-for-home-school/)并安装 XShell 软件
 - 第五步：安装 MySQL 8.0

@@ -10,7 +10,7 @@ title: 从零搭建实验环境
 
 - [VMWare Workstation](https://www.vmware.com/go/getworkstation-win) 或 [VisualBox](https://pc.qq.com/detail/3/detail_1023.html)
 - [XShell](https://www.xshell.com/zh/free-for-home-school/)
-- [Ubuntu Server 22.04.3 LTS ISO 镜像文件](https://releases.ubuntu.com/22.04.3/ubuntu-22.04.3-live-server-amd64.iso)
+- [Ubuntu Server 22.04.4 LTS ISO 镜像文件](https://releases.ubuntu.com/22.04.4/ubuntu-22.04.4-live-server-amd64.iso)
 
 ## 安装软件
 
@@ -108,7 +108,7 @@ title: 从零搭建实验环境
 - 运行 `git --version`，查看版本信息，验证 git 安装成功
 - 安装 Node.js，`sudo apt install -y nodejs npm`
 - 运行 `node -v`，查看版本信息，验证 Node.js 安装成功
-- 安装 Node.js 版本管理工具，`sudo npm install -g n`
+- 安装 Node.js 版本管理工具，`sudo npm install -g n --registry=https://registry.npmmirror.com`
 - 安装最新版的 Node.js，`sudo n stable`
 - 运行 `hash -r`，重置 nodejs 应用程序安装位置reset the location hash with
 - 运行 `node -v`，查看版本信息，验证 Node.js 升级到最新版本
