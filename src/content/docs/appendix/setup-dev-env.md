@@ -102,6 +102,8 @@ title: 从零搭建实验环境
 
 ## 安装软件
 
+- 更新 apt-get 源，`sudo apt-get update`
+- 更新 apt 源，`sudo apt update`
 - 安装 vim，`sudo apt install -y vim`
 - 运行 `vim --version`，查看版本信息，验证 vim 安装成功
 - 安装 git，`sudo apt install -y git`
@@ -110,7 +112,6 @@ title: 从零搭建实验环境
 - 运行 `node -v`，查看版本信息，验证 Node.js 安装成功
 - 安装 Node.js 版本管理工具，`sudo npm install -g n --registry=https://registry.npmmirror.com`
 - 安装最新版的 Node.js，`sudo n stable`
-- 运行 `hash -r`，重置 nodejs 应用程序安装位置reset the location hash with
 - 运行 `node -v`，查看版本信息，验证 Node.js 升级到最新版本
 - 安装 Python3，`sudo apt install -y python3`
 - 运行 `python3 --version`，查看版本信息，验证 Python 安装成功
