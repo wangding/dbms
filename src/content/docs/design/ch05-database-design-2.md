@@ -40,33 +40,6 @@ title: 第 5 章 逻辑数据库设计
 - 将 SLC 模式分解成 2NF
 - 将 SLC 模式分解成 3NF
 
-## 阅读参考资料
-
-### 函数依赖
-
-- [什么是函数依赖](https://www.bilibili.com/video/BV1PJ411F78b?p=149)
-- [部分函数依赖与完全函数依赖](https://www.bilibili.com/video/BV1PJ411F78b?p=150)
-- [传递函数依赖](https://www.bilibili.com/video/BV1PJ411F78b?p=151)
-- [函数依赖相关的几个重要概念](https://www.bilibili.com/video/BV1PJ411F78b?p=152)
-- [关于函数依赖的 Armstrong 公理](https://www.bilibili.com/video/BV1PJ411F78b?p=153)
-- [什么是属性集闭包](https://www.bilibili.com/video/BV1PJ411F78b?p=154)
-- [属性闭包的计算算法与覆盖及其证明](https://www.bilibili.com/video/BV1PJ411F78b?p=155)
-- [什么是最小覆盖](https://www.bilibili.com/video/BV1PJ411F78b?p=156)
-
-### 关系范式
-
-- [什么是 1NF](https://www.bilibili.com/video/BV1PJ411F78b?p=159)
-- [什么是 2NF](https://www.bilibili.com/video/BV1PJ411F78b?p=160)
-- [什么是 3NF](https://www.bilibili.com/video/BV1PJ411F78b?p=161)
-- [什么是 BCNF](https://www.bilibili.com/video/BV1PJ411F78b?p=162)
-
-### 模式分解
-
-- [模式分解存在的问题](https://www.bilibili.com/video/BV1PJ411F78b?p=167)
-- [无损连接分解及其检验算法](https://www.bilibili.com/video/BV1PJ411F78b?p=168)
-- [保持依赖分解及其检验算法](https://www.bilibili.com/video/BV1PJ411F78b?p=169)
-- [模式分解成 BCNF 及 3NF 的算法](https://www.bilibili.com/video/BV1PJ411F78b?p=170)
-
 <!-- url link -->
 [draw_io_url]: https://draw.io
 
